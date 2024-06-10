@@ -14,19 +14,19 @@ Apache Maven:
 ```xml
 <dependency>
     <groupId>io.github.tap30</groupId>
-    <artifactId>hiss-spring-boot-starter</artifactId>
+    <artifactId>hiss-spring-boot-mongo-starter</artifactId>
     <version>0.9.8</version>
 </dependency>
 ```
 
 Gradle (Groovy):
 ```groovy
-implementation 'io.github.tap30:hiss-spring-boot-starter:0.9.8'
+implementation 'io.github.tap30:hiss-spring-boot-mongo-starter:0.9.8'
 ```
 
 Gradle (Kotlin):
 ```kotlin
-implementation("io.github.tap30:hiss-spring-boot-starter:0.9.8")
+implementation("io.github.tap30:hiss-spring-boot-mongo-starter:0.9.8")
 ```
 
 ### 2. Set environment variables
