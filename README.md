@@ -6,6 +6,8 @@ By integrating Hiss with Spring Boot project we mean registration of:
 - Hiss bean [using environment variables](https://github.com/Tap30/hiss?tab=readme-ov-file#creating-properties-from-environment-variables)
 - Mongo interceptor which automatically encrypts objects before saving to DB and decrypts them after loading.
 
+An example project is created [here](https://github.com/mkay1375/spring-with-hiss-example).
+
 ## Quick Start
 
 ### 1. Add Hiss dependency
