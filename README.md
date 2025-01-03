@@ -65,6 +65,13 @@ Note: Getters and setters must exist as Hiss use them to get/set values.
 By implementing `HissPropertiesProvider` and annotating it with `@Component`
 this library will pick your implementation rather than default one.
 
+## Using custom encryption and hashing algorithms
+
+Just like custom `HissPropertiesProvider` by implementing `Encryptor` and `Hasher` interfaces
+and annotating them with `@Component`, this library will pick them up.
+
+For more information about `Encryptor`s and `Hasher`s see [Hiss readme](https://github.com/Tap30/hiss?tab=readme-ov-file#supported-algorithms).
+
 ## Querying Data
 
 Currently there is not an easy way to support querying encrypted fields.
