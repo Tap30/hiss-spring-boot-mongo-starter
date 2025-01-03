@@ -5,7 +5,7 @@
 
     <groupId>io.github.tap30</groupId>
     <artifactId>hiss-spring-boot-mongo-starter</artifactId>
-    <version>0.9.8</version>
+    <version>0.10.0</version>
     <name>Hiss Spring Boot Mongo Starter</name>
     <description>Integrates Hiss library with Spring data mongo</description>
     <developers>
@@ -35,7 +35,7 @@
         <mockito-junit-jupiter.version>5.11.0</mockito-junit-jupiter.version>
         <junit-jupiter.version>5.10.2</junit-jupiter.version>
         <jetbrains-annotations.version>24.1.0</jetbrains-annotations.version>
-        <hiss.version>0.11.1</hiss.version>
+        <hiss.version>0.12.0</hiss.version>
         <spring-boot.version>2.7.18</spring-boot.version>
     </properties>
 
